@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Leiturinha</title>
+    <style>
+        body {
+            background-color: #f3f3f3;
+            font-family: Arial, sans-serif;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        h1 {
+            color: #6b2a0a;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        input[type="button"] {
+            font-size: 1.2em;
+            background-color: #6b2a0a;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="button"]:hover {
+            background-color: #cb6532;
+        }
+
+        input[type="button"]:focus {
+            outline: none;
+        }
+
+        input[type="button"]:active {
+            background-color: #5a1f08;
+        }
+
+        @media (max-width: 600px) {
+            input[type="button"] {
+                width: 80%;
+                padding: 10px 20px;
+                font-size: 1em;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1>BIBLIOTECA LEITURINHA</h1>
+
+    <h1>SISTEMA DE CADASTRO DE USUÁRIOS</h1> 
+
+    <a href="formulario.html"><input type="button" value="Cadastrar Usuário"></a>
+    <a href="visualiza_cad.php"><input type="button" value="Visualizar Cadastros"></a>
+    <a href="pesquisar_usuario.html"><input type="button" value="Pesquisar Cadastros"></a>
+
+</body>
+</html>
